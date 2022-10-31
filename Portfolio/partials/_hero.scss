@@ -1,0 +1,28 @@
+
+.info-container {
+    position: relative;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 8px black;
+}
+
+.img-container {
+    img {
+        object-fit: cover;
+        width: 85%;
+        float: right;
+        height: 100vh;
+        border-bottom: 5px solid white;
+        filter: contrast(75%);
+    }
+}
+
+.info-text-cont {
+    h6 {
+        font-size: 50px;
+    }
+    position: absolute;
+    left: 33%;
+    right: 17%;
+    transform: translate(0, 30vh);
+}
