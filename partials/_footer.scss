@@ -1,0 +1,24 @@
+.back-to-top-cont {
+    margin-left:40%; 
+    margin-right: 25%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5px;
+    margin-bottom: 15px;
+    border-top: 5px solid white;
+    color: white;
+    border: none;
+    padding-bottom: 5px;
+    a {
+        background-color: #13386c;
+        width: 100px;
+    }
+    a:hover {
+        background-color: #0c2343;
+        margin-top: -2px;
+        border: 2px solid white;
+    }
+}
+    
+
